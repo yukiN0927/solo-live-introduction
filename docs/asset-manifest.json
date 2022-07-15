@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/solo-live-introduction/static/css/main.30cb3d1d.css",
+    "main.js": "/solo-live-introduction/static/js/main.f2a5d28e.js",
+    "index.html": "/solo-live-introduction/index.html",
+    "main.30cb3d1d.css.map": "/solo-live-introduction/static/css/main.30cb3d1d.css.map",
+    "main.f2a5d28e.js.map": "/solo-live-introduction/static/js/main.f2a5d28e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30cb3d1d.css",
+    "static/js/main.f2a5d28e.js"
+  ]
+}
