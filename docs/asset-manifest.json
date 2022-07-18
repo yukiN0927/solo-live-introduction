@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/solo-live-introduction/static/css/main.87fdc2c1.css",
-    "main.js": "/solo-live-introduction/static/js/main.f4fd1263.js",
+    "main.js": "/solo-live-introduction/static/js/main.27451575.js",
     "static/js/787.4391dc5e.chunk.js": "/solo-live-introduction/static/js/787.4391dc5e.chunk.js",
-    "static/media/logo.svg": "/solo-live-introduction/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Test.png": "/solo-live-introduction/static/media/Test.9a178dde412ea154cccc.png",
+    "static/media/Mao.png": "/solo-live-introduction/static/media/Mao.982cb11d8caa24525ccb.png",
     "index.html": "/solo-live-introduction/index.html",
     "main.87fdc2c1.css.map": "/solo-live-introduction/static/css/main.87fdc2c1.css.map",
-    "main.f4fd1263.js.map": "/solo-live-introduction/static/js/main.f4fd1263.js.map",
+    "main.27451575.js.map": "/solo-live-introduction/static/js/main.27451575.js.map",
     "787.4391dc5e.chunk.js.map": "/solo-live-introduction/static/js/787.4391dc5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87fdc2c1.css",
-    "static/js/main.f4fd1263.js"
+    "static/js/main.27451575.js"
   ]
 }
