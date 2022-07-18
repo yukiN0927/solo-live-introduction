@@ -11,7 +11,7 @@ function Search(){
     return(
         <>
             {open?<SeachDialog open={open} setOpen={setOpen} setTableValue={setTableValue} />:""}
-            <div>
+            <div style={{right:0 , left:0, top:50, position:"fixed"}}>
                 <IconButton color="primary" aria-label="upload picture" component="span">
                     <SearchIcon onClick={()=>{setOpen(true)}}/>
                 </IconButton>

@@ -18,7 +18,14 @@ function Top() {
     return (
         <>
             <div>
-                <AppBar position="static">
+                <AppBar 
+                    position="static" 
+                    style={{
+                        background:"linear-gradient(#000000,#FFFFFF)",
+                        boxShadow:"none",
+                        right:0 , left:0, top:0, position:"fixed"
+                    }}
+                >
                     <Toolbar>
                         <Typography variant="h6" >
                             配信マッチング(仮)
@@ -26,16 +33,16 @@ function Top() {
                     </Toolbar>
                 </AppBar>
             </div>
-            {value === 1 && <Search />}
-            {value === 0 && <News />}
-            <div style={{ right:0 , left:0, bottom:0, position:"absolute"}}>
+            {value === 1 && <News />}
+            {value === 0 && <Search />}
+            <div style={{ right:0 , left:0, bottom:0, position:"fixed"}}>
                 <BottomNavigation
                     showLabels
                     value={value}
                     onChange={handleChange}
                 >
-                    <BottomNavigationAction label="News" icon={<SearchIcon />} />
                     <BottomNavigationAction label="Seach" icon={<SearchIcon />} />
+                    <BottomNavigationAction label="News" icon={<SearchIcon />} /> 
                 </BottomNavigation>
             </div>
         </>
