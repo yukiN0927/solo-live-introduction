@@ -1,5 +1,4 @@
-import mao_image from '../images/Mao.png'
-import test_image from '../images/Test.png'
+import mao_image from '../images/Mao.jpg'
 
 export const data=[
     {
@@ -8,14 +7,5 @@ export const data=[
         game:["Apex Legends","ELDEN RING"],
         image:mao_image,genre:"vtuber",
         url:"mao"
-    },
-
-    {
-        name:"test美",
-        gender:"女",
-        game:["Apex Legends"],
-        image:test_image,
-        genre:"vtuber",
-        url:"test"
     },
 ]

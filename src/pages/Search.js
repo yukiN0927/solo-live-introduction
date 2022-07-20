@@ -1,24 +1,23 @@
 import React from 'react';
-import {IconButton } from "@material-ui/core";
-import SearchIcon from '@material-ui/icons/Search';
 import SeachDialog from '../components/SeachDialog';
 import SeachTable from '../components/SearchTable';
 import { data } from '../members/data/data'
+import PropTypes from 'prop-types';
 
-function Search(){
-    const [open, setOpen] = React.useState(false);
+function Search(props){
+    const { open, setOpen }=props;
     const [tableValue, setTableValue] = React.useState(data);
     return(
         <>
             {open?<SeachDialog open={open} setOpen={setOpen} setTableValue={setTableValue} />:""}
-            <div style={{right:0 , left:0, top:50, position:"fixed"}}>
-                <IconButton color="primary" aria-label="upload picture" component="span">
-                    <SearchIcon onClick={()=>{setOpen(true)}}/>
-                </IconButton>
-            </div>
             <SeachTable tableValue={tableValue}/>
         </>
     )
 }
+
+Search.propTypes = {
+    open: PropTypes.bool.isRequired,
+    setOpen: PropTypes.func.isRequired,
+};
 
 export default Search;
