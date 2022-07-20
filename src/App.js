@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={`/${defaultUrl}/top`} element={<Top />} />
+        <Route path={`/${defaultUrl}/`} element={<Top />} />
         <Route path={`/${defaultUrl}/mao`} element={<Mao />} />
       </Routes>
     </BrowserRouter>
