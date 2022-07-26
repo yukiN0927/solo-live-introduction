@@ -54,12 +54,12 @@ function Top() {
                     showLabels
                     value={value}
                     onChange={handleChange}
-                    style={{minHeight:"100px"}}
+                    style={{minHeight:"300px"}}
                 >
-                    <BottomNavigationAction label="Seach" icon={<SearchIcon />} />
-                    <BottomNavigationAction label="News" icon={<NewspaperIcon />} /> 
-                    <BottomNavigationAction label="Communication" icon={<ChatIcon />} /> 
-                    <BottomNavigationAction label="MineCraft" icon={<StorageIcon />} /> 
+                    <BottomNavigationAction label="Seach" icon={<SearchIcon fontSize="large" />} />
+                    <BottomNavigationAction label="News" icon={<NewspaperIcon fontSize="large" />} /> 
+                    <BottomNavigationAction label="Communication" icon={<ChatIcon fontSize="large" />} /> 
+                    <BottomNavigationAction label="MineCraft" icon={<StorageIcon fontSize="large" />} /> 
                 </BottomNavigation>
             </div>
         </>
