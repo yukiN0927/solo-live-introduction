@@ -54,6 +54,7 @@ function Top() {
                     showLabels
                     value={value}
                     onChange={handleChange}
+                    style={{minHeight:"100px"}}
                 >
                     <BottomNavigationAction label="Seach" icon={<SearchIcon />} />
                     <BottomNavigationAction label="News" icon={<NewspaperIcon />} /> 

@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/solo-live-introduction/static/css/main.87fdc2c1.css",
-    "main.js": "/solo-live-introduction/static/js/main.f33950f3.js",
+    "main.js": "/solo-live-introduction/static/js/main.1777ecc7.js",
     "static/js/787.4391dc5e.chunk.js": "/solo-live-introduction/static/js/787.4391dc5e.chunk.js",
     "static/media/Mao.jpg": "/solo-live-introduction/static/media/Mao.0227d9bdab3f4f501ede.jpg",
     "static/media/Test.jpg": "/solo-live-introduction/static/media/Test.71c218ba6c34fabbb630.jpg",
     "static/media/Frees.png": "/solo-live-introduction/static/media/Frees.2d43163fbce68a26339a.png",
     "index.html": "/solo-live-introduction/index.html",
     "main.87fdc2c1.css.map": "/solo-live-introduction/static/css/main.87fdc2c1.css.map",
-    "main.f33950f3.js.map": "/solo-live-introduction/static/js/main.f33950f3.js.map",
+    "main.1777ecc7.js.map": "/solo-live-introduction/static/js/main.1777ecc7.js.map",
     "787.4391dc5e.chunk.js.map": "/solo-live-introduction/static/js/787.4391dc5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87fdc2c1.css",
-    "static/js/main.f33950f3.js"
+    "static/js/main.1777ecc7.js"
   ]
 }
