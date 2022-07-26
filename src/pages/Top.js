@@ -27,13 +27,17 @@ function Top() {
                     position="static" 
                     style={{
                         background:"#FFFFFF",
-                        right:0 , left:0, top:0, position:"fixed"
+                        right:0 , 
+                        left:0, 
+                        top:0, 
+                        position:"fixed",
+                        minHeight:"200px"
                     }}
                 >
                     <Toolbar style={{display:"flex", justifyContent:"space-between"}}>
                         <div style={{display:"flex"}}>
-                            <img src={frees} alt="真央" style={{maxHeight:"30px", marginRight:"20px"}} />
-                            <Typography variant="h6" style={{color:"#000000",fontWeight:"bold" }}>
+                            <img src={frees} alt="真央" style={{maxHeight:"200px", marginRight:"20px"}} />
+                            <Typography variant="h6" style={{color:"#000000",fontWeight:"bold", fontSize:"130px" }}>
                                 Free's
                             </Typography>
                         </div>
@@ -54,7 +58,7 @@ function Top() {
                     showLabels
                     value={value}
                     onChange={handleChange}
-                    style={{minHeight:"300px"}}
+                    style={{minHeight:"300px",justifyContent:"space-between"}}
                 >
                     <BottomNavigationAction label="Seach" icon={<SearchIcon fontSize="large" />} />
                     <BottomNavigationAction label="News" icon={<NewspaperIcon fontSize="large" />} /> 
