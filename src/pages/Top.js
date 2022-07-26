@@ -31,19 +31,19 @@ function Top() {
                         left:0, 
                         top:0, 
                         position:"fixed",
-                        minHeight:"200px"
+                        minHeight:"100px"
                     }}
                 >
                     <Toolbar style={{display:"flex", justifyContent:"space-between"}}>
                         <div style={{display:"flex"}}>
-                            <img src={frees} alt="真央" style={{maxHeight:"200px", marginRight:"20px"}} />
-                            <Typography variant="h6" style={{color:"#000000",fontWeight:"bold", fontSize:"130px" }}>
+                            <img src={frees} alt="真央" style={{maxHeight:"100px", marginRight:"20px"}} />
+                            <Typography variant="h6" style={{color:"#000000",fontWeight:"bold", fontSize:"80px" }}>
                                 Free's
                             </Typography>
                         </div>
                         <div>
                             <IconButton color="primary" aria-label="upload picture" component="span">
-                                <SearchIcon onClick={()=>{setOpen(true)}}/>
+                                <SearchIcon onClick={()=>{setOpen(true)}} style={{fontSize:"80px"}}/>
                             </IconButton>
                         </div>
                     </Toolbar>
@@ -58,12 +58,12 @@ function Top() {
                     showLabels
                     value={value}
                     onChange={handleChange}
-                    style={{minHeight:"300px",justifyContent:"space-between"}}
+                    style={{minHeight:"200px",justifyContent:"space-between"}}
                 >
-                    <BottomNavigationAction label="Seach" icon={<SearchIcon fontSize="large" />} />
-                    <BottomNavigationAction label="News" icon={<NewspaperIcon fontSize="large" />} /> 
-                    <BottomNavigationAction label="Communication" icon={<ChatIcon fontSize="large" />} /> 
-                    <BottomNavigationAction label="MineCraft" icon={<StorageIcon fontSize="large" />} /> 
+                    <BottomNavigationAction label="Seach" icon={<SearchIcon style={{fontSize:"150px"}} />} />
+                    <BottomNavigationAction label="News" icon={<NewspaperIcon style={{fontSize:"150px"}} />} /> 
+                    <BottomNavigationAction label="Communication" icon={<ChatIcon style={{fontSize:"150px"}} />} /> 
+                    <BottomNavigationAction label="MineCraft" icon={<StorageIcon style={{fontSize:"150px"}} />} /> 
                 </BottomNavigation>
             </div>
         </>
